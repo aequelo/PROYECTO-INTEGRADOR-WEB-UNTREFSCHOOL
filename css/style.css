@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+/*header*/
+.header{
+    border: 1px solid #FC7300;
+    display: flex;
+    background-color: #EFF5F5;
+    align-items: center;
+}
+.header__logo{
+    width: 5%;
+    height: 5%;
+}
+.nav{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.nav__list{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.nav__list a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00425A;
+}
+.nav__list li:hover{
+    transform: scale(1.5);
+}
+.nav__item a:hover{
+    color: #FC7300;
+}
+.nav__item{
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 3px;
+
+}
+
+/*main*/
+/*titulo*/
+.titulo{
+    position: relative;
+    text-align: center;
+    /* border: 1px solid red; */
+    background-image: url(../multimedia/img/libros_escritorio.jpg);
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+.titulo__texto{
+    border: 2px solid #EFF5F530;
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.glass{
+    background: #fafafa20;
+    backdrop-filter: blur(0.4rem);
+}
+.titulo__h1{
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 2%;
+    padding: 20px;
+    color: #EFF5F5;
+    text-shadow: 2px 1px 2px black;
+}
+.titulo__p{
+    text-transform: uppercase;
+    margin-top: 25%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00425A  ;
+    text-shadow: 0px 1px 2px #FC7300;
+}
+/*h - p*/
+.title__h1{
+    margin-left: 10px;
+    position: absolute;
+}
+.title__h3{
+    font-size: 20px;
+    color: #EFF5F5;
+    text-shadow: 4px 1px 1px black;
+}
+.text__p{
+    width: 60%;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*quienes somos*/
+.quienesSomos{
+    position: relative;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+    background-color: #00425A;
+}
+.quienesSomos__h1{
+    position: absolute;
+    color: #EFF5F5;
+    text-shadow: 1px 2px 4px #FC7300;
+}
+.quienesSomos__img{
+    position: absolute;
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 3%;
+    box-shadow: 20px 10px 15px black;
+    border-radius: 5px;
+}
+.quienesSomos__p{
+    border-radius: 5px;
+    position: absolute;
+    color: #EFF5F5;
+    margin-top: 15%;
+    margin-left: 38%;
+    text-shadow: 1px 3px 6px black;
+}
+/*por que elegirnos*/
+.elegirnos{
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80vh;
+    background-color: #1F8A70;
+}
+.elegirnos__h1{
+    color: #EFF5F5;
+    text-shadow: 1px 2px 4px #FC7300;
+}
+.elegirnos__p{
+    border-radius: 5px;
+    position: absolute;
+    color: #EFF5F5;
+    margin-top: 15%;
+    margin-left: 3%;
+    text-shadow: 1px 3px 6px black;
+}
+.elegirnos__img{
+    position: absolute;
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 67%;
+    box-shadow: 20px 10px 15px black;
+    border-radius: 5px;
+}
+/*propuesta educativa*/
+.propuesta{
+    /* border: 1px solid blue; */
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: #FC7300;
+}
+.propuesta__h1{
+    color: #EFF5F5;
+    text-shadow: 2px 2px 4px #00425A;
+}
+.propuesta__list{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.propuesta__a{
+    width: 100%;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 7%;
+}
+.propuesta__a a:hover{
+    transform: scale(4);
+}
+.propuesta__list img{
+    width: 100px;
+    height: 100px;
+}
+.propuesta__item{
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(0% 50%, 25% 100%, 75% 100%, 100% 50%, 75% 0%, 25% 0%);
+}
+.propuesta__h6{
+    position: absolute;
+    margin-top: 55%;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/*ultimas noticias*/
+.noticias{
+    background-color: black;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.noticias div{
+    /* border: 1px solid blue; */
+    width: 50%;
+    margin-top: 5%;
+}
+.noticias__h1{
+    color: #EFF5F5;
+    text-shadow: 1px 2px 4px #FC7300;
+}
+.noticias__h3{
+    padding: 20px;
+}
+.text__p__noticias{
+    padding: 20px;
+    width: 50%;
+    position: absolute;
+    color: #EFF5F5;
+    text-shadow: 4px 1px 1px black
+}
+.noticias__reunion{
+    background-image: url(../multimedia/img/egresados1960.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.noticias__camaras{
+    background-image: url(../multimedia/img/seguridad.jpg);
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.noticias__boton{
+    border: 2px solid #EFF5F550;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 30%;
+    text-decoration: none;
+    color: #EFF5F5;
+    background: #FC730070;
+    backdrop-filter: blur(0.4rem);
+
+}
+
+/*footer*/
+.footer{
+    border: 10px solid #FC7300;
+    background-color: #eff5f570;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 85vh;
+}
+/*footer redes*/
+.socialm{
+    /* border: 1px solid black ; */
+    position: absolute;
+    width: 33%;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.footer  a{
+    text-decoration: none;
+    color: #FC7300;
+}
+.facebook{
+    padding: 15px;
+    list-style-image: url("../multimedia/img/facebook-circular-logo.png");
+    margin-left: 30px;
+}
+.instagram{
+    padding: 15px;
+    list-style-image: url("../multimedia/img/instagram.png");
+    margin-left: 30px;
+}
+.twitter{
+    padding: 15px;
+    list-style-image: url("../multimedia/img/twitter-black-shape.png");
+    margin-left: 30px;
+}
+/*footer logo*/
+.logo{
+    /* border: 1px solid blue; */
+    position: absolute;
+    width: 33%;
+    margin-left: 32%;
+}
+.logo_img{
+    width: 105%;
+    height: 50%;
+}
+/*footer ubicacion*/
+.ubicacion iframe{
+    border: 1px solid red;
+}
+.ubicacion__map{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 32%;
+    width: 33.4%;
+    height: 160px;
+}
+/*footer contacto*/
+.contacto{
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-left: 70%;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin-top: 10%;
+}
+.contacto li{
+    width: 140px;
+    margin: 10px 0px 10px 50px
+}
+
+.contacto__mail{
+    padding: 15px;
+    list-style-image: url(../multimedia/img/gmailLogo.png);
+    /* margin-left: 30px; */
+}
+.contacto__tel{
+    padding: 15px;
+    list-style-image: url(../multimedia/img/telefonologo.png);
+    color: #FC7300;
+    /* margin-left: 30px; */
+}
+.contacto__wp{
+    padding: 15px;
+    list-style-image: url(../multimedia/img/whatsapp.png);
+    /* margin-left: 30px; */
+}
