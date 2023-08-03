@@ -177,14 +177,18 @@
 }
 @media screen and (max-width: 426px){
     .quienesSomos{
-        height: 70vh;
+        height: 95vh;
     }
 }
 @media screen and (min-width: 1000px){
     .quienesSomos__h1{
         font-size: 40px;
     }
+    .quienesSomos__img{
+        margin-top: 5%;
+    }
     .quienesSomos__p{
+        margin-top: 5%;
         font-size: 25px;
     }
 }
@@ -220,14 +224,18 @@
 }
 @media screen and (max-width: 426px){
     .elegirnos{
-        height: 70vh;
+        height: 95vh;
     }
 }
 @media screen and (min-width: 1000px){
+    .elegirnos__img{
+        margin-top: 5%;
+    }
     .elegirnos__h1{
         font-size: 40px;
     }
     .elegirnos__p{
+        margin-top: 5%;
         font-size: 25px;
     }
 }
@@ -279,7 +287,7 @@
 }
 @media screen and (max-width: 426px){
     .propuesta{
-        height: 70vh;
+        height: 95vh;
     }
     .propuesta__list{
         justify-content: center;
@@ -299,6 +307,7 @@
 }
 @media screen and (min-width: 1000px){
     .propuesta__h6{
+        margin-top: 30%;
         font-size: 25px;
     }
     }
@@ -350,7 +359,7 @@
 }
 @media screen and (max-width: 426px){
     .noticias{
-        height: 70vh;
+        height: 95vh;
     }
     .noticias div{
         margin-top: 8%;
@@ -379,12 +388,15 @@
     .text__p__noticias{
         font-size: 25px;
     }
+    .noticias__boton{
+        margin-top: 20%;
+    }
 }
 
 /*footer*/
 .footer{
     border: 10px solid #FC7300;
-    background-color: #eff5f570;
+    background-color: #eff5f5;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -481,7 +493,7 @@
 }
 @media screen and (max-width: 426px){
     .footer{
-        height: 65vh;
+        height: 95vh;
     }
     .ubicacion__map{
         position: absolute;
@@ -504,7 +516,7 @@
 }
 @media screen and (min-width: 1000px){
     .footer{
-        height: 55vh;
+        height: 95vh;
     }
     /*mediaq redes*/
     .socialm__h3{
@@ -534,9 +546,12 @@
     
 }
 /*main contacto*/
+.form__contacto{
+    background-color: #1F8A70;
+}
 .main_contacto{
-    border: 1px solid black;
-    background-color: #FC7300;
+    /* border: 1px solid black; */
+    background-color: #1F8A70;
     align-items: center;
     background-image: url(../multimedia/img/imagenLogocolor.png);
     background-repeat: no-repeat;
@@ -580,14 +595,14 @@
 }
 @media screen and (min-width: 1000px){
     .main_contacto{
-        height: 90vh;
+        height: 95vh;
     }
     .box__escribinos__h2{
         font-size: 40px;
     }
     .box{
-        margin-top: 5%;
-        height: 90%;
+        margin-top: 3%;
+        height: 95%;
         width: 40%;
         padding: 30px 33px 67px;
     }
