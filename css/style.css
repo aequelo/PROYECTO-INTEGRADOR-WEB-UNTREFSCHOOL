@@ -94,15 +94,28 @@
     color: #00425A  ;
     text-shadow: 0px 1px 2px #FC7300;
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 350px){
     .titulo__texto{
-        height: 30%;
+        height: 35%;
     }
     .titulo__h1{
         font-size: 20px;
     }
     .titulo__p{
         font-size: 12px;
+        margin-top: 45%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 426px){
+    .titulo__texto{
+        width: 80%;
+        height: 30%;
+    }
+    .titulo__h1{
+        font-size: 25px;
+    }
+    .titulo__p{
+        font-size: 18px;
         margin-top: 45%;
     }
 }
@@ -130,8 +143,8 @@
     position: absolute;
 }
 .title__h3{
-    font-size: 20px;
-    color: #EFF5F5;
+    font-size: 22px;
+    color: red;
     text-shadow: 4px 1px 1px black;
 }
 .text__p{
@@ -151,7 +164,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     background-color: #00425A;
 }
 .quienesSomos__h1{
@@ -162,7 +175,7 @@
 .quienesSomos__img{
     position: absolute;
     width: 30%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 3%;
     box-shadow: 10px 10px 15px black;
     border-radius: 5px;
@@ -171,13 +184,39 @@
     border-radius: 5px;
     position: absolute;
     color: #EFF5F5;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 38%;
     text-shadow: 1px 3px 6px black;
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 350px){
     .quienesSomos{
-        height: 95vh;
+        height: 120vh;
+    }
+    .quienesSomos__img{
+        margin-left: 20%;
+        width: 50%;
+        margin-top: 15%;
+    }
+    .quienesSomos__p{
+        font-size: 15px;
+        margin-left: 3%;
+        margin-top: 55%;
+        width: 95%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 426px){
+    .quienesSomos{
+        height: 80vh;
+    }
+    .quienesSomos__img{
+        margin-left: 20%;
+        width: 60%;
+        margin-top: 15%;
+    }
+    .quienesSomos__p{
+        margin-left: 3%;
+        margin-top: 55%;
+        width: 95%;
     }
 }
 @media screen and (min-width: 1000px){
@@ -199,7 +238,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     background-color: #1F8A70;
 }
 .elegirnos__h1{
@@ -210,21 +249,44 @@
     border-radius: 5px;
     position: absolute;
     color: #EFF5F5;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 3%;
     text-shadow: 1px 3px 6px black;
 }
 .elegirnos__img{
     position: absolute;
     width: 30%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 67%;
     box-shadow: 10px 10px 15px black;
     border-radius: 5px;
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 350px){
     .elegirnos{
-        height: 95vh;
+        height: 120vh;
+    }
+    .elegirnos__p{
+        margin-top: 55%;
+        width: 95%;
+    }
+    .elegirnos__img{
+        margin-left: 25%;
+        margin-top: 15%;
+        width:50%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 426px){
+    .elegirnos{
+        height: 75vh;
+    }
+    .elegirnos__p{
+        margin-top: 50%;
+        width: 95%;
+    }
+    .elegirnos__img{
+        margin-left: 30%;
+        margin-top: 10%;
+        width: 50%;
     }
 }
 @media screen and (min-width: 1000px){
@@ -245,7 +307,7 @@
     position: relative;
     display: flex;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background-color: #FC7300;
 }
 .propuesta__h1{
@@ -285,9 +347,25 @@
     color: #EFF5F5;
     text-shadow: 2px 2px 2px black;
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 350px){
     .propuesta{
-        height: 95vh;
+        height: 100vh;
+    }
+    .propuesta__list{
+        justify-content: center;
+        margin-top: 15%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 150px);
+        grid-auto-rows: 200px;
+        gap: 1rem;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 426px){
+    .propuesta{
+        height: 70vh;
     }
     .propuesta__list{
         justify-content: center;
@@ -337,8 +415,8 @@
     padding: 20px;
     width: 50%;
     position: absolute;
-    color: #EFF5F5;
-    text-shadow: 4px 1px 1px black
+    color: #FC7300;
+    text-shadow: 2px 1px 1px black
 }
 .noticias__reunion{
     background-image: url(../multimedia/img/egresados1960.jpg);
@@ -357,25 +435,64 @@
     margin-left: 5%;
     margin-top: 30%;
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 350px){
     .noticias{
-        height: 95vh;
+        display: block;
+        height: 160vh;
+        border: 1px solid red;
     }
     .noticias div{
-        margin-top: 8%;
+        width: 100%;
+        height: 70vh;
+        margin-top: 10%;
+        text-align: center;
     }
     .noticias__h3{
         padding: 5px;
+        font-size: 25px;
     }
     .text__p__noticias{
+        margin-top: 15%;
+        width: 100%;
+        background-color: #EFF5F550;
         padding: 1px;
     }
     .noticias__boton{
         align-items: center;
-        margin-top: 70%;
+        margin-top: 60%;
     }
     .noticias__reunion a{
-        margin-top: 82%;
+        margin-top: 60%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 426px){
+    .noticias{
+        display: block;
+        height: 120vh;
+        border: 1px solid red;
+    }
+    .noticias div{
+        width: 100%;
+        height: 50vh;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .noticias__h3{
+        padding: 5px;
+        font-size: 25px;
+    }
+    .text__p__noticias{
+        margin-top: 15%;
+        width: 100%;
+        background-color: #EFF5F550;
+        padding: 1px;
+    }
+    .noticias__boton{
+        align-items: center;
+        margin-top: 50%;
+    }
+    .noticias__reunion a{
+        margin-top: 50%;
     }
 }
 @media screen and (min-width: 1000px){
@@ -400,7 +517,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    height: 95vh;
+    height: 50vh;
 }
 /*footer redes*/
 .socialm{
@@ -491,9 +608,36 @@
     text-shadow: 1px 1px 1px black;
     border-radius: 5px;
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 350px){
     .footer{
-        height: 95vh;
+        height: 70vh;
+    }
+    .ubicacion__map{
+        position: absolute;
+        margin-top: 95%;
+        margin-left: 15%;
+        width: 70%;
+        height: 70px;
+    }
+    .contacto{
+        /* border: 1px solid black; */
+        margin-top: 15%;
+        margin-left: 40%;
+        width: 44%;
+    }
+    .socialm{
+        /* border: 1px solid black; */
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .contacto__consulta{
+        font-size: 15px;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 426px){
+    .footer{
+        height: 70vh;
     }
     .ubicacion__map{
         position: absolute;
@@ -516,11 +660,11 @@
 }
 @media screen and (min-width: 1000px){
     .footer{
-        height: 95vh;
+        height: 80vh;
     }
     /*mediaq redes*/
     .socialm__h3{
-        font-size: 30px;
+        font-size: 40px;
     }
     .footer  a{
         font-size: 18px;
@@ -531,11 +675,11 @@
     }
     .contacto__h3{
         margin-left: 35%;
-        font-size: 30px;
+        font-size: 40px;
     }
     .contacto li{
         margin-left: 41%;
-        font-size: 18px;
+        font-size: 15px;
     }
     .contacto__tel{
         padding: 5px;
@@ -588,7 +732,7 @@
     border: 1px solid #FC7300;
     text-shadow: 1px 1px 1px black;
 }
-@media screen and (max-width: 426px){
+@media screen and (min-width: 350px) and (max-width: 426px){
     .box{
         width: 70%;
     }   
