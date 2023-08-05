@@ -517,7 +517,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    height: 50vh;
+    height: 65vh;
 }
 /*footer redes*/
 .socialm{
@@ -664,7 +664,7 @@
     }
     /*mediaq redes*/
     .socialm__h3{
-        font-size: 40px;
+        font-size: 35px;
     }
     .footer  a{
         font-size: 18px;
@@ -675,7 +675,7 @@
     }
     .contacto__h3{
         margin-left: 35%;
-        font-size: 40px;
+        font-size: 35px;
     }
     .contacto li{
         margin-left: 41%;
@@ -731,6 +731,15 @@
 .Enviar{
     border: 1px solid #FC7300;
     text-shadow: 1px 1px 1px black;
+}
+@media screen and (max-width: 350px){
+    .main_contacto{
+        height: 80vh;
+    }
+    .box{
+        width: 80%;
+        margin-top: 10%;
+    }   
 }
 @media screen and (min-width: 350px) and (max-width: 426px){
     .box{
